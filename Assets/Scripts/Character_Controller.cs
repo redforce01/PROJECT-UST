@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Character_Controller : MonoBehaviour
 {
+    public int value = 0;
+
     // Start is called before the first frame update
     void Start()
     {

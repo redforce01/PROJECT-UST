@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,7 +7,7 @@ namespace UST
 {
     public class GameScene : SceneBase
     {
-        // ³»°¡ ÁÖ¼®À» ÇÑ±Û·Î Àû¾úÀ½.
+        // ë‚´ê°€ ì£¼ì„ì„ í•œê¸€ë¡œ ì ì—ˆìŒ...
         public override IEnumerator OnStartScene()
         {
             var loadingUI = UIManager.Instance.GetUI<LoadingUI>(UIList.LoadingUI);
